@@ -1,3 +1,8 @@
+
+
+
+
+
 # TIP: Always, ALWAYS read through all of the tests before you even start writing any code.
 
 # Again, a file with a specific name needs to be created, in this case "temperature.rb".
@@ -13,7 +18,7 @@ describe "temperature conversion functions" do
   describe "#ftoc" do
 
     # "it" is also a method that is given to us by RSpec,
-    # that also takes a string and a do-end block.
+    # that Also takes a string and a do-end block.
     it "converts freezing temperature" do
       # Calling the method ftoc and passing in the integer 32 should return 0.
       ftoc(32).should == 0
@@ -35,22 +40,22 @@ describe "temperature conversion functions" do
   end
 
   # Now this set of tests describes a different method, 
-  # not ftoc() anymore, but ctof(). 
-  describe "#ctof" do
+  # not ftoc() anymore, but ctof(). s=
+#   describe "#ctof" do
 
-    it "converts freezing temperature" do
-      ctof(0).should == 32
-    end
+#     it "converts freezing temperature" do
+#       ctof(0).should == 32
+#     end
 
-    it "converts boiling temperature" do
-      ctof(100).should == 212
-    end
+#     it "converts boiling temperature" do
+#       ctof(100).should == 212
+#     end
 
-    it "converts arbitrary temperature" do
-      ctof(20).should == 68
-    end
+#     it "converts arbitrary temperature" do
+#       ctof(20).should == 68
+#     end
 
-  end
+  # end
 
 end
 
